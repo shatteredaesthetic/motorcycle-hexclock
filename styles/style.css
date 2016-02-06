@@ -1,0 +1,83 @@
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.analog {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  align-content: flex-end;
+}
+
+.a-row {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  align-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.a-cell {
+  flex: auto;
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  box-shadow: inset 0 0 40px #000;
+  width: 75px;
+  height: 75px;
+}
+
+.oncell {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#3250f8), to(#000077));
+  background: -webkit-linear-gradient(to top, #3250f8, #000077);
+  background: -moz-linear-gradient(to top, #3250f8, #000077);
+  background: -o-linear-gradient(to top, #3250f8, #000077);
+  background: linear-gradient(to top, #3250f8, #000077);
+}
+
+.offcell {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#444), to(#000));
+  background: -webkit-linear-gradient(to top, #444, #000);
+  background: -moz-linear-gradient(to top, #444, #000);
+  background: -o-linear-gradient(to top, #444, #000);
+  background: linear-gradient(to top, #444, #000);
+}
+
+.digital {
+  display: flex;
+  flex-direction: row;
+  font-family: monospace;
+  font-size: 3em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 86px;
+  width: 224px;
+  margin: auto;
+  align-content: flex-start;
+}
+
+.dcell {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 50px;
+  margin: auto;
+  background-color: #3250c5;
+  border-radius: 13%;
+  align-items: center;
+  align-content: space-between;
+  font-size: 1.1em;
+  color: #fff;
+  text-shadow: -2px -2px 1px #333;
+}

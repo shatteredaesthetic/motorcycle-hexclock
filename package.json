@@ -1,0 +1,27 @@
+{
+  "name": "hex-most",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "jsnext:main": "dist/main.es2015.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "prebuild": "rm -f dist/main.min.js"
+  },
+  "author": "Jason Polhemus",
+  "license": "ISC",
+  "dependencies": {
+    "@motorcycle/core": "^1.0.0",
+    "@motorcycle/dom": "^1.0.3",
+    "most": "^0.17.1",
+    "ramda": "^0.19.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "tape": "^4.4.0",
+    "webpack": "^1.12.12"
+  }
+}
